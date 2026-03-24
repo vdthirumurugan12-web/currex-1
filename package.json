@@ -29,8 +29,8 @@
     "nodemon": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "server": "node server.js",
     "server:dev": "nodemon server.js",
     "dev": "concurrently \"npm run server:dev\" \"npm run start\"",
